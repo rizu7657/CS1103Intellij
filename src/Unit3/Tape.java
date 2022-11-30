@@ -2,11 +2,13 @@ package Unit3;
 
 public class Tape {
     private Cell currentCell;
+    private boolean beginningReached;
 
     Tape() {
         this.currentCell = new Cell();
         this.currentCell.next = null;
         this.currentCell.prev = null;
+        this.currentCell.content = ' ';
     }
 
     public Cell getCurrentCell() {
@@ -44,15 +46,26 @@ public class Tape {
 
     public String getTapeContents() {
         String tapeContents = "";
-        while (currentCell.content != ' ') {
-            moveLeft();
-        }
 
-        do {
-            moveRight();
-            tapeContents += currentCell.content;
-        } while (currentCell.content != ' ');
+        Cell beginningOfCell = getBeginningPointer(currentCell);
+        tapeContents = getCellChainContents(tapeContents, beginningOfCell);
 
         return tapeContents;
+    }
+
+    private String getCellChainContents(String s, Cell c) {
+
+        if (c.next == null) {
+            return s;
+        }
+        return getCellChainContents(s += c.content, c.next);
+    }
+
+    private Cell getBeginningPointer(Cell cell) {
+
+        if (cell.prev == null) {
+            return cell;
+        }
+        return getBeginningPointer(cell.prev);
     }
 }
