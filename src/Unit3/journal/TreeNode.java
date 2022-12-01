@@ -67,8 +67,15 @@ public class TreeNode {
         }
     }
 
-    private static List<TreeNode> countLeaves() {
+    private static void countLeaves() {
 
+    }
 
+    private static int sumLeafDepth(int depth) {
+        return 0;
+    }
+
+    private static int maximumLeafDepth(int depth) {
+        return 0;
     }
 }
