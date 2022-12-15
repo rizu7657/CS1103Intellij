@@ -1,4 +1,4 @@
-package Unit5;
+package Unit5.hashtable;
 
 import Unit4.TextIO;
 
