@@ -11,7 +11,7 @@ public class SpellChecker {
     public static void main(String[] args) {
 
         try {
-            Scanner file = new Scanner(new File("C:\\Users\\Ruhan\\.pers\\CS1103intellij\\src\\Unit5\\words.txt"));
+            Scanner file = new Scanner(new File("/Users/Ruhan/Documents/projects/CS1103intellij/src/Unit5/words.txt"));
             HashSet<String> dictionary = new HashSet();
 
             // Read the words.txt file into a HashSet
