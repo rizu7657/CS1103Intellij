@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="openjfx.javafx.graphics">
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-graphics-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-graphics-17.0.2-mac-aarch64.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2-mac-aarch64.jar" />
+  </library>
+  <library name="openjfx.javafx.fxml">
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-fxml-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-fxml-17.0.2-mac-aarch64.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-controls-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-controls-17.0.2-mac-aarch64.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-graphics-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-graphics-17.0.2-mac-aarch64.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2-mac-aarch64.jar" />
+  </library>
+  <library name="openjfx.javafx.controls">
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-controls-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-controls-17.0.2-mac-aarch64.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-graphics-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-graphics-17.0.2-mac-aarch64.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2-mac-aarch64.jar" />
+  </library>
+  <library name="openjfx.javafx.base">
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2.jar" />
+    <archive path="/Users/ruhan/Documents/projects/CS1103Intellij/lib/javafx-base-17.0.2-mac-aarch64.jar" />
+  </library>
+</eclipse-userlibraries>
+

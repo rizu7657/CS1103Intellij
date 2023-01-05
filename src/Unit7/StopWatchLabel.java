@@ -1,7 +1,5 @@
 package Unit7;
-
 import javafx.scene.control.Label;
-
 import java.util.Timer;
 
 /**
@@ -12,10 +10,7 @@ import java.util.Timer;
  * displays the message "Timing....".
  */
 public class StopWatchLabel extends Label {
-
     private long startTime;   // Start time of timer.
-    //   (Time is measured in milliseconds.)
-
     private boolean running;  // True when the timer is running.
 
     /**
@@ -28,14 +23,12 @@ public class StopWatchLabel extends Label {
         setOnMousePressed(e -> setRunning(!running));
     }
 
-
     /**
      * Tells whether the timer is currently running.
      */
     public boolean isRunning() {
         return running;
     }
-
 
     /**
      * Sets the timer to be running or stopped, and changes the text that
@@ -64,5 +57,4 @@ public class StopWatchLabel extends Label {
             setText(String.format("Time: %1.3f seconds", seconds));
         }
     }
-
-} // end StopWatchLabel
+}
